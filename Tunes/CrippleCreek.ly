@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-CCChords = \chordmode{
+CrippleCreekChords = \chordmode{
   s4
   a1 d2 a s1 e2 a
   a1 d2 a s1 e2 a e2 a
@@ -8,7 +8,7 @@ CCChords = \chordmode{
   a1 d a e2 a e2 a
 }
 
-CC = \relative{
+CrippleCreek = \relative{
   \key a \major
   \partial 4 \tuplet 3/2 {e''8 fis gis}
   \repeat volta 2{
@@ -47,8 +47,8 @@ CC = \relative{
 %{
   \score {
   <<
-  \new ChordNames \CCChords 
-  \new Staff { \clef treble \CC }
+  \new ChordNames \CrippleCreekChords 
+  \new Staff { \clef treble \CrippleCreek }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cripple Creek"}}
   }

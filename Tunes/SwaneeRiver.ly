@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-SRChords = \chordmode{
+SwaneeRiverChords = \chordmode{
   g2 b:7
   e:m c
   g e:m
@@ -19,7 +19,7 @@ SRChords = \chordmode{
   g1 g
 }
 
-SR = \relative{
+SwaneeRiver = \relative{
   \key g \major
       %% A section
   \repeat volta 2{
@@ -58,8 +58,8 @@ SR = \relative{
 %{
   \score {
   <<
-  \new ChordNames \SRChords 
-  \new Staff { \clef treble \SR }
+  \new ChordNames \SwaneeRiverChords 
+  \new Staff { \clef treble \SwaneeRiver }
   >>
   \header { piece = \markup {\fontsize #4.0 "Swanee River"}}
   }

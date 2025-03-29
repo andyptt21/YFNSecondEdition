@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-BCSChords = \chordmode{
+BlackestCrowChords = \chordmode{
   s4
   d2. s g s s s e:m s s s
   g s s s e:m d e:m s 
@@ -8,7 +8,7 @@ BCSChords = \chordmode{
 }
 
 
-BCS = \relative{
+BlackestCrow = \relative{
   \key e \minor
   \time 3/4
   \partial 4 b'4
@@ -36,9 +36,9 @@ BCS = \relative{
 %{
   \score {
   <<
-  \new ChordNames \BCSChords 
-  \new Staff { \clef treble \BCS }
+  \new ChordNames \BlackestCrowChords 
+  \new Staff { \clef treble \BlackestCrow }
   >>
-  \header { piece = \markup {\fontsize #4.0 "The Blackest Crow (Simplified)"}}
+  \header { piece = \markup {\fontsize #4.0 "The Blackest Crow"}}
   }
 %}

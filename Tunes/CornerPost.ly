@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-CPChords = \chordmode{
+CornerPostChords = \chordmode{
   s2
   bes1 s s g:m
   f s2 d:m s1 g:m s
@@ -8,7 +8,7 @@ CPChords = \chordmode{
   s d:m s g:m g:m
 }
 
-CP = \relative{
+CornerPost = \relative{
   \key g \minor
   %% Corner Post
   \partial 2 g'8 a bes c 
@@ -59,8 +59,8 @@ CP = \relative{
 %{
   \score {
   <<
-  \new ChordNames \CPChords 
-  \new Staff { \clef treble \CP }
+  \new ChordNames \CornerPostChords 
+  \new Staff { \clef treble \CornerPost }
   >>
   \header { piece = \markup {\fontsize #4.0 "The Corner Post"}}
   }

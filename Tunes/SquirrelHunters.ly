@@ -1,11 +1,11 @@
 \version "2.18.0"
 
-SHChords = \chordmode{a1 s g s
+SquirrelHuntersChords = \chordmode{a1 s g s
 		      a s g d d
 		      a1 s g s
 		      a s g d d}
 
-SH = \relative{
+SquirrelHunters = \relative{
   \key d \major
       %% A section
   \repeat volta 2{
@@ -41,8 +41,8 @@ SH = \relative{
 %{
   \score {
   <<
-  \new ChordNames \SHChords 
-  \new Staff { \clef treble \SH }
+  \new ChordNames \SquirrelHuntersChords 
+  \new Staff { \clef treble \SquirrelHunters }
   >>
   \header { piece = \markup {\fontsize #4.0 "Squirrel Hunters"}}
   }

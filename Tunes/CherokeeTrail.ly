@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-CTChords = \chordmode{
+CherokeeTrailChords = \chordmode{
   s2
   c1 s g s
   c s g e:m
@@ -9,7 +9,7 @@ CTChords = \chordmode{
 
 }
 
-CT = \relative{
+CherokeeTrail = \relative{
   \key e \minor
   \partial 2 b'4 d
   \bar ".|"
@@ -43,8 +43,8 @@ CT = \relative{
 %{
   \score {
   <<
-  \new ChordNames \CTChords 
-  \new Staff { \clef treble \CT }
+  \new ChordNames \CherokeeTrailChords 
+  \new Staff { \clef treble \CherokeeTrail }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cherokee Trail"}}
   }

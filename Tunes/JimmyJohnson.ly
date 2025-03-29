@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-JJChords = \chordmode{
+JimmyJohnsonChords = \chordmode{
   a4
   s1 s s e2 a2 e2 a2
   a1 s s e2 a2 e2 a2
@@ -9,7 +9,7 @@ JJChords = \chordmode{
   a1 d2 a2 s1 e2 a2
 }
 
-JJ = \relative{
+JimmyJohnson = \relative{
   \key a \major
   \partial 4 e''4~
   \repeat volta 2{
@@ -65,8 +65,8 @@ JJ = \relative{
 %{
   \score {
   <<
-  \new ChordNames \JJChords 
-  \new Staff { \clef treble \JJ }
+  \new ChordNames \JimmyJohnsonChords 
+  \new Staff { \clef treble \JimmyJohnson }
   >>
   \header { piece = \markup {\fontsize #4.0 "Jimmy Johnson"}}
   }

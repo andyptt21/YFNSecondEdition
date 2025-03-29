@@ -1,15 +1,15 @@
 \version "2.18.0"
 
-ECChords = \chordmode{
+ErieCanalChords = \chordmode{
   s4
   e2:m g d e:m b1 s2 e:m b2 e:m
   g1 s2 d e1:m s2 b
-  e2:m g d e:m b1 s2 e:m d1
+  e2:m g d e:m b1 s2 e:m
   g1 s2 d g1 s4 d e2:m
   s g d e:m b1 s2 e:m
 }
 
-EC = \relative{
+ErieCanal = \relative{
   \key e \minor
   \partial 4 b'4
   \repeat volta 2{
@@ -32,7 +32,6 @@ EC = \relative{
   a8 a4 b4.~ b4
   b4 b b b
   b8 a g e~ e2
-  d1
   \break
   b'4. b8~ b2
   b8 b b g a2
@@ -44,12 +43,13 @@ EC = \relative{
   b8 a g e~ e2
 }
 
-%{
+
   \score {
   <<
-  \new ChordNames \ECChords 
-  \new Staff { \clef treble \EC }
+  \new ChordNames \ErieCanalChords 
+  \new Staff { \clef treble \ErieCanal }
   >>
   \header { piece = \markup {\fontsize #4.0 "The Erie Canal"}}
+  \layout{}
+  \midi{}
   }
-%}

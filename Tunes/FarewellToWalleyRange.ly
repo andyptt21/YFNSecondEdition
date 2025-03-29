@@ -1,13 +1,13 @@
 \version "2.18.0"
 
-FWRChords = \chordmode{
+FarewellToWhalleyRangeChords = \chordmode{
   fis4.:m s s s s s
   e4. s s s s s s s s
   fis4.:m s s s s s
   e4. s s s s s s s s
 }
 
-FWR = \relative{
+FarewellToWhalleyRange = \relative{
   \key fis \minor
   \time 9/8
       %% A section
@@ -38,8 +38,8 @@ FWR = \relative{
 %{
   \score {
   <<
-  \new ChordNames \FWRChords 
-  \new Staff { \clef treble \FWR }
+  \new ChordNames \FarewellToWhalleyRangeChords 
+  \new Staff { \clef treble \FarewellToWhalleyRange }
   >>
   \header { piece = \markup {\fontsize #4.0 "Farewell to Whalley Range"}}
   }

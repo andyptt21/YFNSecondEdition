@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-SITGChords = \chordmode{
+SallyInTheGardenChords = \chordmode{
   c1:m s2 g:m
   c2.:m f4 bes1
   c:m s4 bes c2:m s1 s2 g:m c1:m c:m
@@ -8,7 +8,7 @@ SITGChords = \chordmode{
   c:m s s1 s2 g:m c1:m c:m
 }
 
-SITG = \relative{
+SallyInTheGarden = \relative{
   \key c \minor
   \repeat volta 2{
     c''8 ees d c g2
@@ -48,8 +48,8 @@ SITG = \relative{
 %{
   \score {
   <<
-  \new ChordNames \SITGChords 
-  \new Staff { \clef treble \SITG }
+  \new ChordNames \SallyInTheGardenChords 
+  \new Staff { \clef treble \SallyInTheGarden }
   >>
   \header { piece = \markup {\fontsize #4.0 "Sally in the Garden"}}
   }

@@ -1,12 +1,12 @@
 \version "2.18.0"
 
-CITCChords = \chordmode{a1 s g s
+CattleInTheCaneChords = \chordmode{a1 s g s
 			a s g e2 a
 			a1:m s c s
 			a:m s c e2 a:m
 		       }
 
-CITC = \relative{
+CattleInTheCane = \relative{
   \key d \major
   \repeat volta 2{
     %% A section
@@ -37,8 +37,8 @@ CITC = \relative{
 %{
   \score {
   <<
-  \new ChordNames \CITCChords 
-  \new Staff { \clef treble \CITC }
+  \new ChordNames \CattleInTheCaneChords 
+  \new Staff { \clef treble \CattleInTheCane }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cattle in the Cane"}}
   }

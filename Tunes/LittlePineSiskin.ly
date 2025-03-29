@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-LPSChords = \chordmode{
+LittlePineSiskinChords = \chordmode{
   s4
   d1 a
   d g
@@ -13,7 +13,7 @@ LPSChords = \chordmode{
   
 }
 
-LPS = \relative{
+LittlePineSiskin = \relative{
   \key d \major
   \partial 4 a'8 b
   \repeat volta 2{
@@ -54,8 +54,8 @@ LPS = \relative{
 %{
   \score {
   <<
-  \new ChordNames \LPSChords 
-  \new Staff { \clef treble \LPS }
+  \new ChordNames \LittlePineSiskinChords 
+  \new Staff { \clef treble \LittlePineSiskin }
   >>
   \header { piece = \markup {\fontsize #4.0 "Little Pine Siskin"}}
   }

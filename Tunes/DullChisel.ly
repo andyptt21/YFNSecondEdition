@@ -1,11 +1,11 @@
 \version "2.18.0"
 
-DCChords = \chordmode{a1 s e a
+DullChiselChords = \chordmode{a1 s e a
 		      a1 s e a a:7
 		      d a e2 e:7 a a:7
 		      d1 a e a}
 
-DC = \relative{
+DullChisel = \relative{
   \key a \major
       %% A section
   \repeat volta 2{
@@ -40,8 +40,8 @@ DC = \relative{
 %{
   \score {
   <<
-  \new ChordNames \DCChords 
-  \new Staff { \clef treble \DC }
+  \new ChordNames \DullChiselChords 
+  \new Staff { \clef treble \DullChisel }
   >>
   \header { piece = \markup {\fontsize #4.0 "Dull Chisel"}}
   }

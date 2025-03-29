@@ -1,6 +1,6 @@
 \version "2.18.0"
 
-BMRChords = \chordmode{a1 s s e2 a
+BlackMountainRagChords = \chordmode{a1 s s e2 a
 			 a1 s s e2 a
 			 a1 a:7 d d:7
 			 a s  e s
@@ -8,7 +8,7 @@ BMRChords = \chordmode{a1 s s e2 a
 			 a e  a2 e2 a1
 		       }
 
-BMR = \relative{
+BlackMountainRag = \relative{
   \key a \major
   \repeat volta 2{
     %% A section
@@ -49,8 +49,8 @@ BMR = \relative{
 %{
   \score {
   <<
-  \new ChordNames \BMRChords 
-  \new Staff { \clef treble \BMR }
+  \new ChordNames \BlackMountainRagChords 
+  \new Staff { \clef treble \BlackMountainRag }
   >>
   \header { piece = \markup {\fontsize #4.0 "Black Mountain Rag"}}
   }
