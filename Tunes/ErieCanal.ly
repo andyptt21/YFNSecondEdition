@@ -28,6 +28,7 @@ ErieCanal = \relative{
   d8 b4 a8~ a2
   b4 g b g
   b8 g4 fis8~ fis4 b4
+  \break
   e,4 e g g 
   a8 a4 b4.~ b4
   b4 b b b
@@ -37,6 +38,7 @@ ErieCanal = \relative{
   b8 b b g a2
   b4. b8~ b4 g8 a
   b g a fis g4 b8 g
+  \break
   e4 e g g
   a8 a4 b4.~ b4
   b b b b

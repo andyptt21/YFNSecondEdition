@@ -15,6 +15,7 @@ BarrackHill = \relative{
     e'4 d8 b4.
     e4 a,8 a a a
     g4 a8 b4.
+    \break
     e4 a,8 a a a
     e'4 d8 b4.
     d4 b8 g'4 b,8
@@ -26,6 +27,7 @@ BarrackHill = \relative{
     a4 fis8 g fis e
     d4 b8 g'4 b,8
     d4 b8 d4.
+    \break
     e4 d8 e fis g
     a4 fis8 g fis e
     d4 b8 g'4 b,8

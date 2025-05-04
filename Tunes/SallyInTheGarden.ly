@@ -45,12 +45,12 @@ SallyInTheGarden = \relative{
 }
 
 
-%{
+
   \score {
   <<
   \new ChordNames \SallyInTheGardenChords 
   \new Staff { \clef treble \SallyInTheGarden }
   >>
   \header { piece = \markup {\fontsize #4.0 "Sally in the Garden"}}
+  \layout{}
   }
-%}

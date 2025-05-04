@@ -46,12 +46,12 @@ BlackMountainRag = \relative{
   
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \BlackMountainRagChords 
   \new Staff { \clef treble \BlackMountainRag }
   >>
   \header { piece = \markup {\fontsize #4.0 "Black Mountain Rag"}}
+    \layout{}
   }
-%}

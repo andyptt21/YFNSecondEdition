@@ -18,6 +18,7 @@ HuntsmensChorus = \relative{
     d2 b
     a4 d a d
     b8 c b a g4 d
+    \break
     g d g8 a b c
     d2 b
     b8 a g a b4 a
@@ -30,6 +31,7 @@ HuntsmensChorus = \relative{
     g2 g
     c4 c8 c c4 b
     a fis e d
+    \break
     b' b8 a g a b c
     d2 c
     b8 a g a b4 a

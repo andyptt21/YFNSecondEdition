@@ -62,12 +62,12 @@ JimmyJohnson = \relative{
 }
 
 
-%{
+
   \score {
   <<
   \new ChordNames \JimmyJohnsonChords 
   \new Staff { \clef treble \JimmyJohnson }
   >>
   \header { piece = \markup {\fontsize #4.0 "Jimmy Johnson"}}
+    \layout{}
   }
-%}

@@ -17,6 +17,7 @@ CookInTheKitchen = \relative{
     f d e f4 f8
     d8 g g g a g
     a4 d8 c a g
+    \break
     d8 g g g a g
     f d e f4 d'8
     c a g fis g a
@@ -28,6 +29,7 @@ CookInTheKitchen = \relative{
     g a g a g fis
     g4 g8 g fis g
     a4 c8 c a g
+    \break
     b4 b8 b a g
     g a g a4 d8
     c a g fis g a
@@ -39,6 +41,7 @@ CookInTheKitchen = \relative{
     a4 g8 fis e d
     c a g fis g a
     b d b c a g
+    \break
     d'4 e8 fis4 g8
     a4 g8 fis e d
     c a g fis g a

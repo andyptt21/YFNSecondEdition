@@ -17,6 +17,7 @@ MaggieInTheWoods = \relative{
     b e e g16 e
     d8 b a g16 a
     b8 a a d,16 d
+    \break
     g8 d g a
     b e e g16 e
     d8 b a16 g a b
@@ -29,6 +30,7 @@ MaggieInTheWoods = \relative{
     e fis g8. e16
     d8 b a g16 a
     b8 a a d
+    \break
     g8. fis16 e8 d
     e fis g8. e16
     d8 b a16 g a b

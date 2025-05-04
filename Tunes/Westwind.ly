@@ -17,6 +17,7 @@ Westwind = \relative{
     fis a d16 cis b a
     fis8 a fis a
     e a a4
+    \break
     fis8 a fis a
     fis a d16 cis b a
     d8 d e16 fis g e
@@ -28,6 +29,7 @@ Westwind = \relative{
     fis a a a16 fis
     g8. e16 fis8. d16
     e8 cis b a
+    \break
     d a b16 cis b a
     d8 a b16 cis b a
     d8 d e16 fis g e

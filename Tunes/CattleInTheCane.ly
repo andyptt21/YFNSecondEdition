@@ -34,12 +34,12 @@ CattleInTheCane = \relative{
   }  
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \CattleInTheCaneChords 
   \new Staff { \clef treble \CattleInTheCane }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cattle in the Cane"}}
+  \layout{}
   }
-%}

@@ -44,12 +44,12 @@ CrippleCreek = \relative{
 }
 
 
-%{
+
   \score {
   <<
   \new ChordNames \CrippleCreekChords 
   \new Staff { \clef treble \CrippleCreek }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cripple Creek"}}
+    \layout{}
   }
-%}

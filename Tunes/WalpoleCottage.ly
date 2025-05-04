@@ -23,8 +23,8 @@ WalpoleCottage = \relative{
   e  d cis b
   a r e' r
   \partial 2 a r \bar "||"
-  
-  \partial 2 a,4. g8
+
+  \partial 2 a,4.^\markup { \null { Repeat starts here }} g8
   fis4 a fis a
   fis a d4. cis8
   b4. d8 cis4 b

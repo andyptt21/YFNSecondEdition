@@ -23,7 +23,7 @@
 
       \vspace #4
 
-      \epsfile #X #60 #"oven-bird.eps"
+      % \epsfile #X #60 #"oven-bird.eps" 
 
       \vspace #4
 

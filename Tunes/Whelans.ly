@@ -15,6 +15,7 @@ Whelans = \relative{
     fis e b' a fis d
     e4. b'8 a fis
     d' a fis fis e d
+    \break
     e4. b'8 a fis
     fis e b' a fis a
     \tuplet 3/2 {b cis d} b b a fis
@@ -28,6 +29,7 @@ Whelans = \relative{
     fis8 e d e4.
     b8 a b g'4 e8
     fis d b a fis a
+    \break
     b4. e
     fis8 e d e4 fis8
     g8 b g fis a fis

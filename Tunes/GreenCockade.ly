@@ -16,14 +16,16 @@ GreenCockade = \relative{
     g fis g e'4 d8
     cis\prall b a g fis e
     d4 fis8 a4 d8
+    \break
     fis fis d a4 fis8
     g fis g e'4 d8
     cis\prall b cis d4.
   }
-  \break
+
   \repeat volta 2 {
     e4 cis8 a4 e'8
     fis fis d a4 fis'8
+    \break
     g4 fis8 e4 d8
     cis\prall b a g fis e
     d4 fis8 a4 d8

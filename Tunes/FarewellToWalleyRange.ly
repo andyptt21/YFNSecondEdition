@@ -35,12 +35,12 @@ FarewellToWhalleyRange = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \FarewellToWhalleyRangeChords 
   \new Staff { \clef treble \FarewellToWhalleyRange }
   >>
   \header { piece = \markup {\fontsize #4.0 "Farewell to Whalley Range"}}
+  \layout{}
   }
-%}

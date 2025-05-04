@@ -55,12 +55,12 @@ SwaneeRiver = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \SwaneeRiverChords 
   \new Staff { \clef treble \SwaneeRiver }
   >>
   \header { piece = \markup {\fontsize #4.0 "Swanee River"}}
+  \layout{}
   }
-%}

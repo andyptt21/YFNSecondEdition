@@ -17,6 +17,7 @@ SwallowtailJigHarmony = \relative{
     b4 e8 g fis e
     a,4 d8 fis4 d8
     fis8 e fis fis e d
+    \break
     b4 e8 g4 e8
     b4 e8 g4 g8
     fis e fis c4 c8
@@ -29,6 +30,7 @@ SwallowtailJigHarmony = \relative{
     g4 a8 g fis e
     g a a g4 a8
     g4 g8 fis4.
+    \break
     g8 a a g4 r8
     g4 a8 g fis e
     fis4. c4 c8

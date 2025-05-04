@@ -51,12 +51,12 @@ LittlePineSiskin = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \LittlePineSiskinChords 
   \new Staff { \clef treble \LittlePineSiskin }
   >>
   \header { piece = \markup {\fontsize #4.0 "Little Pine Siskin"}}
+    \layout{}
   }
-%}

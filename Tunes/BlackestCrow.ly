@@ -33,12 +33,13 @@ BlackestCrow = \relative{
   e2.~ e2 b'4
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \BlackestCrowChords 
   \new Staff { \clef treble \BlackestCrow }
   >>
   \header { piece = \markup {\fontsize #4.0 "The Blackest Crow"}}
+  \layout{}
+  \midi{}
   }
-%}

@@ -15,6 +15,7 @@ AngryPeeler = \relative{
     d e d g e d
     b'4 b8 d b g
     a b a a4 c8
+    \break
     b4 b8 g e d
     d e d g e d
     b'4 b8 d b g
@@ -26,6 +27,7 @@ AngryPeeler = \relative{
     e g e d b g
     b4 b8 d b g
     fis a a a4 c8
+    \break
     b4 b8 b c d
     e g e d b g
     b4 b8 d b g

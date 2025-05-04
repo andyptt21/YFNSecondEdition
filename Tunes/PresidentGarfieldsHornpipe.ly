@@ -40,12 +40,12 @@ PresidentGarfieldsHornpipe = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \PresidentGarfieldsHornpipeChords 
   \new Staff { \clef treble \PresidentGarfieldsHornpipe }
   >>
   \header { piece = \markup {\fontsize #4.0 "President Garfield's Hornpipe"}}
+    \layout{}
   }
-%}

@@ -40,12 +40,12 @@ CherokeeTrail = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \CherokeeTrailChords 
   \new Staff { \clef treble \CherokeeTrail }
   >>
   \header { piece = \markup {\fontsize #4.0 "Cherokee Trail"}}
+    \layout{}
   }
-%}

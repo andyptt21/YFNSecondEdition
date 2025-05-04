@@ -17,6 +17,7 @@ KatyHill = \relative{
     g \tuplet 3/2 {fis8 g fis} e4 d
     b g d'8 b g4
     a8 b a g fis4 d
+    \break
     g a b d
     g \tuplet 3/2 {fis8 g fis} e4 d8 c
     b4 g a8 b a fis
@@ -31,6 +32,7 @@ KatyHill = \relative{
     \acciaccatura {e16 fis} g4 fis e d
     b g d' g,
     a8 b a g fis4 d
+    \break
     g a b d
     g \tuplet 3/2 {fis8 g fis} e4 d8 c
     b4 g a8 b a fis

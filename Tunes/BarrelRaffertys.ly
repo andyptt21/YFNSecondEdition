@@ -15,6 +15,7 @@ BarrelRaffertys = \relative{
     a4 b8 c4.
     e,8 d e g4.
     a8 b a g e d
+    \break
     e4 a8 a g e
     a4 b8 c4.
     e8 g e d b g
@@ -26,6 +27,7 @@ BarrelRaffertys = \relative{
     b4 a8 g4.
     e8 d e g4.
     a8 b a g e d
+    \break
     e4 a8 a g a
     b4 a8 g4.
     a8 g e d b g

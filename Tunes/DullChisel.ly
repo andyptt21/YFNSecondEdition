@@ -37,12 +37,12 @@ DullChisel = \relative{
   }  
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \DullChiselChords 
   \new Staff { \clef treble \DullChisel }
   >>
   \header { piece = \markup {\fontsize #4.0 "Dull Chisel"}}
+    \layout{}
   }
-%}

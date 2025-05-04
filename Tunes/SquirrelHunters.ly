@@ -38,12 +38,12 @@ SquirrelHunters = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \SquirrelHuntersChords 
   \new Staff { \clef treble \SquirrelHunters }
   >>
   \header { piece = \markup {\fontsize #4.0 "Squirrel Hunters"}}
+    \layout{}
   }
-%}

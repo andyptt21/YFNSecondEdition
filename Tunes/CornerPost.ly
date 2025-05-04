@@ -56,12 +56,12 @@ CornerPost = \relative{
   }
 }
 
-%{
+
   \score {
   <<
   \new ChordNames \CornerPostChords 
   \new Staff { \clef treble \CornerPost }
   >>
   \header { piece = \markup {\fontsize #4.0 "The Corner Post"}}
+    \layout{}
   }
-%}

@@ -15,6 +15,7 @@ LannigansBall = \relative{
     g4 a8 b cis d
     d, e d fis4 g8
     a b a a fis d
+    \break
     e8 fis e g4 a8
     g4 a8 b cis d
     e4 b8 c4 a8
@@ -26,6 +27,7 @@ LannigansBall = \relative{
     fis a g fis e d
     e4 fis8 g4 e8
     fis d b b4.
+    \break
     e4 fis8 g4 e8
     fis a g fis e dis
     e4 b8 c4 a8

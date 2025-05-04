@@ -18,6 +18,7 @@ TenPennyBitHarmony = \relative{
     g4 g8 g4 b8
     c4 e,8 c'4 e,8
     g4. b8 a b
+    \break
     c4 e,8 c'4 e,8
     g4 g8 g4 b8
     c8 b g b4 g8
@@ -30,6 +31,7 @@ TenPennyBitHarmony = \relative{
     g4 g8 b g g
     a4 c8 c b c
     g4. b4 b8
+    \break
     c4 c8 c b c
     g4 g8 b4 b8
     c b g b4 g8

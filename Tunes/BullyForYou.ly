@@ -18,6 +18,7 @@ BullyForYou = \relative{
     fis fis d e4 d8
     b e e e4 d8
     b e e e a g
+    \break
     fis fis d e4 d8
     fis fis d e4 d8
     a d d d (e fis)
@@ -32,6 +33,7 @@ BullyForYou = \relative{
     fis g a e4 d8
     b8 e e e4 d8
     cis8 a a a a' g
+    \break
     fis g a e fis g
     fis g a e4 d8
     a d d d e fis

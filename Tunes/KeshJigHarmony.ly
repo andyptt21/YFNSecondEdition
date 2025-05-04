@@ -15,6 +15,7 @@ KeshJigHarmony = \relative{
     fis e fis fis4 d8
     g4 b8 b4 g8
     g4 g8 fis d c
+    \break
     b d b b4 d8
     fis e fis fis4 d8
     g4 b8 b g d
@@ -26,6 +27,7 @@ KeshJigHarmony = \relative{
     c e c b g fis
     g fis g b g e
     d4 fis8 fis e d
+    \break
     g fis g b g b
     c e c b g a
     b a b c b c

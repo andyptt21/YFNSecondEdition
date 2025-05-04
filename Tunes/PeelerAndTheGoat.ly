@@ -17,6 +17,7 @@ PeelerAndTheGoat = \relative{
     a4 b8 c4 d8
     e f e d4 c8
     b4 g8 g a b
+    \break
     c4 a8 b a g
     a4 b8 c4 d8
     e fis g fis e d
@@ -29,6 +30,7 @@ PeelerAndTheGoat = \relative{
     e4 fis8 g4 a8
     g fis e d4 g8
     b,4 g8 g a b
+    \break
     c b a b (a g)
     a4 b8 c4 d8
     e fis g fis e d
